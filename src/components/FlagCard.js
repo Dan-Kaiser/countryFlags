@@ -4,11 +4,9 @@ const FlagCard = ({
   flagImg,
   countryName,
   answerField,
-  updateAnswerField,
+  setAnswerField,
   handleOnClick,
 }) => {
-  console.log("FlagCard Component Loaded");
-
   return (
     <div>
       <img src={flagImg} alt={`The flag of ${countryName}`} />
@@ -19,8 +17,8 @@ const FlagCard = ({
           type="text"
           name="answer"
           id="answer"
-          // value={answerField}
-          // onChange={updateAnswerField}
+          value={answerField}
+          onChange={setAnswerField}
         />
       </label>
       <button onClick={handleOnClick} type="button">
