@@ -13,19 +13,19 @@ const FlagCard = ({
     <div>
       <img src={flagImg} alt={`The flag of ${countryName}`} />
       <p>{countryName}</p>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Answer
-          <input
-            type="text"
-            name="answer"
-            id="answer"
-            // value={answerField}
-            // onChange={updateAnswerField}
-          />
-        </label>
-        <button type="submit">Submit</button>
-      </form>
+      <label>
+        Answer
+        <input
+          type="text"
+          name="answer"
+          id="answer"
+          // value={answerField}
+          // onChange={updateAnswerField}
+        />
+      </label>
+      <button onClick={handleSubmit} type="button">
+        Submit
+      </button>
     </div>
   );
 };
