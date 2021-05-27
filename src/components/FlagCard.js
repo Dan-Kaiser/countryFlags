@@ -5,7 +5,7 @@ const FlagCard = ({
   countryName,
   answerField,
   updateAnswerField,
-  handleSubmit,
+  handleOnClick,
 }) => {
   console.log("FlagCard Component Loaded");
 
@@ -23,7 +23,7 @@ const FlagCard = ({
           // onChange={updateAnswerField}
         />
       </label>
-      <button onClick={handleSubmit} type="button">
+      <button onClick={handleOnClick} type="button">
         Submit
       </button>
     </div>
