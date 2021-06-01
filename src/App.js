@@ -7,6 +7,24 @@ const App = () => {
   // const [currentCountryCode, setCurrentCountryCode] = useState("us");
   const [flagImage, setFlagImage] = useState("");
   const [answerField, setAnswerField] = useState("");
+  const [answerIsCorrect, setAnswerIsCorrect] = useState(false);
+  const [hasAnswered, setHasAnswered] = useState(false);
+
+  const checkMatching = (input, reference) => {
+    let lowerInput = input.toLowerCase();
+    let lowerReference = reference.toLowerCase();
+    if (lowerInput === lowerReference) {
+      setAnswerIsCorrect(true);
+      // console.log(
+      //   `Correct! You entered ${input}, and the answer was ${reference}`
+      // );
+    } else {
+      setAnswerIsCorrect(false);
+      // console.log(
+      //   `Incorrect! You entered ${input}, and the answer was ${reference}`
+      // );
+    }
+  };
 
   const updateAnswerField = (event) => {
     const { value } = event.target;
@@ -32,6 +50,8 @@ const App = () => {
   const handleOnClick = (event) => {
     event.preventDefault();
     console.log("handleOnClick Function Called");
+    checkMatching(answerField, currentCountryName);
+    setHasAnswered(true);
   };
 
   const countries = Object.keys(countriesJSON);
@@ -51,6 +71,13 @@ const App = () => {
         answerField={answerField}
         setAnswerField={updateAnswerField}
       />
+      {hasAnswered ? (
+        answerIsCorrect ? (
+          <p>Correct!</p>
+        ) : (
+          <p>Incorrect!</p>
+        )
+      ) : null}
     </div>
   );
 };
