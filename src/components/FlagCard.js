@@ -7,6 +7,7 @@ const FlagCard = ({
   setAnswerField,
   handleOnClick,
   getNewFlag,
+  handleKeyPress,
 }) => {
   return (
     <div>
@@ -20,6 +21,7 @@ const FlagCard = ({
           id="answer"
           value={answerField}
           onChange={setAnswerField}
+          onKeyPress={handleKeyPress}
         />
       </label>
       <button onClick={handleOnClick} type="button">

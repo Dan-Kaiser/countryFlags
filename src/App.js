@@ -28,7 +28,7 @@ const App = () => {
 
   const updateAnswerField = (event) => {
     const { value } = event.target;
-    console.log(value);
+    // console.log(value);
     setAnswerField(value);
   };
 
@@ -57,9 +57,15 @@ const App = () => {
 
   const handleOnClick = (event) => {
     event.preventDefault();
-    console.log("handleOnClick Function Called");
     checkMatching(answerField, currentCountryName);
     setHasAnswered(true);
+  };
+
+  const handleKeyPress = (event) => {
+    //Triggers on enter keypress
+    if (event.key === "Enter") {
+      handleOnClick(event);
+    }
   };
 
   const countries = Object.keys(countriesJSON);
@@ -77,6 +83,7 @@ const App = () => {
         answerField={answerField}
         setAnswerField={updateAnswerField}
         getNewFlag={getNewFlag}
+        handleKeyPress={handleKeyPress}
       />
       {hasAnswered ? (
         answerIsCorrect ? (
