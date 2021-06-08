@@ -47,6 +47,12 @@ const App = () => {
     };
   };
 
+  const getNewFlag = () => {
+    const { countryName, flagImage } = newRandomCountry(countries);
+    setCurrentCountryName(countryName);
+    setFlagImage(flagImage);
+  };
+
   const handleOnClick = (event) => {
     event.preventDefault();
     console.log("handleOnClick Function Called");
@@ -57,9 +63,7 @@ const App = () => {
   const countries = Object.keys(countriesJSON);
 
   useEffect(() => {
-    const { countryName, flagImage } = newRandomCountry(countries);
-    setCurrentCountryName(countryName);
-    setFlagImage(flagImage);
+    getNewFlag();
   }, []);
 
   return (
@@ -70,6 +74,7 @@ const App = () => {
         handleOnClick={handleOnClick}
         answerField={answerField}
         setAnswerField={updateAnswerField}
+        getNewFlag={getNewFlag}
       />
       {hasAnswered ? (
         answerIsCorrect ? (

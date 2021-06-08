@@ -6,6 +6,7 @@ const FlagCard = ({
   answerField,
   setAnswerField,
   handleOnClick,
+  getNewFlag,
 }) => {
   return (
     <div>
@@ -23,6 +24,9 @@ const FlagCard = ({
       </label>
       <button onClick={handleOnClick} type="button">
         Submit
+      </button>
+      <button onClick={getNewFlag} type="button">
+        Next
       </button>
     </div>
   );
