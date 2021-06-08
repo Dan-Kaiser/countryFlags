@@ -51,6 +51,8 @@ const App = () => {
     const { countryName, flagImage } = newRandomCountry(countries);
     setCurrentCountryName(countryName);
     setFlagImage(flagImage);
+    setHasAnswered(false);
+    setAnswerIsCorrect(null);
   };
 
   const handleOnClick = (event) => {
