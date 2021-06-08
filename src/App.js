@@ -2,6 +2,13 @@ import React, { useState, useEffect } from "react";
 import FlagCard from "./components/FlagCard";
 import countriesJSON from "./assets/countryCodes.json";
 
+const correctStyle = {
+  backgroundColor: "#03fc1c",
+};
+const incorrectStyle = {
+  backgroundColor: "#de2814",
+};
+
 const App = () => {
   const [currentCountryName, setCurrentCountryName] = useState("");
   // const [currentCountryCode, setCurrentCountryCode] = useState("us");
@@ -53,6 +60,7 @@ const App = () => {
     setFlagImage(flagImage);
     setHasAnswered(false);
     setAnswerIsCorrect(null);
+    setAnswerField("");
   };
 
   const handleOnClick = (event) => {
@@ -73,6 +81,9 @@ const App = () => {
   useEffect(() => {
     getNewFlag();
   }, []);
+  useEffect(() => {
+    //Use this to change background to green/red on correct/incorrect guesses
+  }, [answerIsCorrect]);
 
   return (
     <div>
@@ -86,11 +97,9 @@ const App = () => {
         handleKeyPress={handleKeyPress}
       />
       {hasAnswered ? (
-        answerIsCorrect ? (
-          <p>Correct!</p>
-        ) : (
-          <p>Incorrect!</p>
-        )
+        <footer style={answerIsCorrect ? correctStyle : incorrectStyle}>
+          {answerIsCorrect ? <p>Correct!</p> : <p>Incorrect!</p>}
+        </footer>
       ) : null}
     </div>
   );

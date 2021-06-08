@@ -12,9 +12,10 @@ const FlagCard = ({
   return (
     <div>
       <img src={flagImg} alt={`The flag of ${countryName}`} />
-      <p>{countryName}</p>
+      {/* <p>{countryName}</p> */}
+      <br></br>
       <label>
-        Answer
+        Answer:
         <input
           type="text"
           name="answer"
