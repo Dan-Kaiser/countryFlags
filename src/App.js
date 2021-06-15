@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FlagCard from "./components/FlagCard";
+import AnswerFeedback from "./components/AnswerFeedback";
 import countriesJSON from "./assets/countryCodes.json";
 
 const App = () => {
@@ -90,11 +91,11 @@ const App = () => {
         handleKeyPress={handleKeyPress}
       />
       {hasAnswered ? (
-        <footer
-          className={answerIsCorrect ? "correctAnswer" : "incorrectAnswer"}
-        >
-          {answerIsCorrect ? <p>Correct!</p> : <p>Incorrect!</p>}
-        </footer>
+        <AnswerFeedback
+          answerIsCorrect={answerIsCorrect}
+          answerField={answerField}
+          countryName={currentCountryName}
+        />
       ) : null}
     </div>
   );
