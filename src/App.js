@@ -2,13 +2,6 @@ import React, { useState, useEffect } from "react";
 import FlagCard from "./components/FlagCard";
 import countriesJSON from "./assets/countryCodes.json";
 
-const correctStyle = {
-  backgroundColor: "#03fc1c",
-};
-const incorrectStyle = {
-  backgroundColor: "#de2814",
-};
-
 const App = () => {
   const [currentCountryName, setCurrentCountryName] = useState("");
   // const [currentCountryCode, setCurrentCountryCode] = useState("us");
@@ -97,7 +90,9 @@ const App = () => {
         handleKeyPress={handleKeyPress}
       />
       {hasAnswered ? (
-        <footer style={answerIsCorrect ? correctStyle : incorrectStyle}>
+        <footer
+          className={answerIsCorrect ? "correctAnswer" : "incorrectAnswer"}
+        >
           {answerIsCorrect ? <p>Correct!</p> : <p>Incorrect!</p>}
         </footer>
       ) : null}

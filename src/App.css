@@ -7,3 +7,11 @@ footer {
   margin: 8px 0;
   padding: 12px 0 12px 12px;
 }
+
+.correctAnswer {
+  background-color: #03fc1c;
+}
+
+.incorrectAnswer {
+  background-color: #de2814;
+}
