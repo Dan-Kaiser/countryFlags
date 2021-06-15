@@ -5,7 +5,7 @@ TODO:
 [x]Do nice styling stuff
 [x]Allow skip to be on 'Enter' button press when the answer is being displayed
 [x]Update answer to include correct answer vs what was typed
-[ ]Save which ones you get right and wrong
+[x]Save which ones you get right and wrong
 [ ]Train on ones that have more wrong answers than right answers AND ones that haven't been hit yet (alternate is fine)
 
 //Fun additional things
