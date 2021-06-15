@@ -1,0 +1,1026 @@
+{
+  "Andorra": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "United Arab Emirates": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Afghanistan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Antigua and Barbuda": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Anguilla": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Albania": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Armenia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Angola": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Antarctica": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Argentina": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "American Samoa": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Austria": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Australia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Aruba": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Åland Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Azerbaijan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bosnia and Herzegovina": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Barbados": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bangladesh": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Belgium": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Burkina Faso": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bulgaria": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bahrain": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Burundi": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Benin": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saint Barthélemy": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bermuda": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Brunei": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bolivia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Caribbean Netherlands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Brazil": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bahamas": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bhutan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Bouvet Island": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Botswana": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Belarus": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Belize": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Canada": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cocos (Keeling) Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "DR Congo": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Central African Republic": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Republic of the Congo": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Switzerland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Côte d'Ivoire (Ivory Coast)": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cook Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Chile": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cameroon": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "China": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Colombia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Costa Rica": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cuba": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cape Verde": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Curaçao": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Christmas Island": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cyprus": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Czechia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Germany": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Djibouti": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Denmark": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Dominica": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Dominican Republic": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Algeria": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Ecuador": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Estonia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Egypt": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Western Sahara": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Eritrea": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Spain": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Ethiopia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "European Union": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Finland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Fiji": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Falkland Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Micronesia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Faroe Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "France": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Gabon": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "United Kingdom": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "England": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Northern Ireland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Scotland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Wales": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Grenada": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Georgia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "French Guiana": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Guernsey": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Ghana": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Gibraltar": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Greenland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Gambia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Guinea": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Guadeloupe": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Equatorial Guinea": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Greece": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "South Georgia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Guatemala": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Guam": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Guinea-Bissau": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Guyana": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Hong Kong": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Heard Island and McDonald Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Honduras": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Croatia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Haiti": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Hungary": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Indonesia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Ireland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Israel": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Isle of Man": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "India": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "British Indian Ocean Territory": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Iraq": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Iran": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Iceland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Italy": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Jersey": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Jamaica": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Jordan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Japan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Kenya": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Kyrgyzstan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cambodia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Kiribati": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Comoros": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saint Kitts and Nevis": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "North Korea": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "South Korea": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Kuwait": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Cayman Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Kazakhstan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Laos": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Lebanon": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saint Lucia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Liechtenstein": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Sri Lanka": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Liberia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Lesotho": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Lithuania": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Luxembourg": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Latvia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Libya": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Morocco": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Monaco": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Moldova": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Montenegro": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saint Martin": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Madagascar": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Marshall Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "North Macedonia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Mali": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Myanmar": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Mongolia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Macau": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Northern Mariana Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Martinique": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Mauritania": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Montserrat": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Malta": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Mauritius": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Maldives": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Malawi": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Mexico": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Malaysia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Mozambique": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Namibia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "New Caledonia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Niger": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Norfolk Island": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Nigeria": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Nicaragua": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Netherlands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Norway": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Nepal": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Nauru": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Niue": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "New Zealand": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Oman": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Panama": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Peru": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "French Polynesia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Papua New Guinea": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Philippines": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Pakistan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Poland": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saint Pierre and Miquelon": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Pitcairn Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Puerto Rico": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Palestine": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Portugal": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Palau": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Paraguay": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Qatar": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Réunion": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Romania": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Serbia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Russia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Rwanda": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saudi Arabia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Solomon Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Seychelles": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Sudan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Sweden": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Singapore": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saint Helena, Ascension and Tristan da Cunha": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Slovenia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Svalbard and Jan Mayen": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Slovakia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Sierra Leone": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "San Marino": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Senegal": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Somalia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Suriname": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "South Sudan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "São Tomé and Príncipe": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "El Salvador": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Sint Maarten": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Syria": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Eswatini (Swaziland)": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Turks and Caicos Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Chad": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "French Southern and Antarctic Lands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Togo": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Thailand": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Tajikistan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Tokelau": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Timor-Leste": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Turkmenistan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Tunisia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Tonga": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Turkey": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Trinidad and Tobago": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Tuvalu": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Taiwan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Tanzania": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Ukraine": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Uganda": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "United States Minor Outlying Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "United Nations": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "United States": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Uruguay": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Uzbekistan": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Vatican City (Holy See)": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Saint Vincent and the Grenadines": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Venezuela": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "British Virgin Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "United States Virgin Islands": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Vietnam": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Vanuatu": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Wallis and Futuna": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Samoa": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Kosovo": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Yemen": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Mayotte": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "South Africa": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Zambia": {
+    "correct": 0,
+    "incorrect": 0
+  },
+  "Zimbabwe": {
+    "correct": 0,
+    "incorrect": 0
+  }
+}

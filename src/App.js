@@ -65,8 +65,10 @@ const App = () => {
 
   const handleKeyPress = (event) => {
     //Triggers on enter keypress
-    if (event.key === "Enter") {
+    if (event.key === "Enter" && hasAnswered === false) {
       handleOnClick(event);
+    } else if (event.key === "Enter" && hasAnswered === true) {
+      getNewFlag();
     }
   };
 
