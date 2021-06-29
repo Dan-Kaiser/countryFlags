@@ -46,9 +46,54 @@ const App = () => {
     return Math.floor(Math.random() * (max - min + 1) + min);
   };
   const newRandomCountry = (countries) => {
+    //adjust newRandomCountry to do new and incorrectly answered flags before doing flags that have been answered correctly
+    //New flags will have correct and incorrect answers of 0
+    //incorrect flags will have a higher value of incorrect answers than correct answers, the bigger the difference, the sooner we should show that flag again
+    //then comes the least correct flags, and at the end the most correct flags, basically we just need to sort by the difference between correct/incorrect
+    console.log("countries in newRandomCountry", countries);
+    console.log("countries in countriesJSON", countriesJSON);
+    console.log("countries in userData", userData);
+    //so plan is to order the list based on most incorrect answers
+    //then in randomCountry we loop through countryCodes.json until we find a countryCode that matches name, and return that as the randomCountry
+    let nextCountry;
+    if (userData.Andorra !== undefined) {
+      //get user data and sort it
+      let countryList = [];
+      for (const [key, value] of Object.entries(userData)) {
+        let diff = value["correct"] - value["incorrect"];
+        countryList.push({ key, diff });
+      }
+      countryList.sort((a, b) => {
+        if (a.diff < b.diff) return -1;
+        if (a.diff > b.diff) return 1;
+        return 0;
+      });
+      nextCountry = countryList[0];
+      setSortedUserData(countryList);
+    }
+    let nextCountryCode;
+    if (nextCountry) {
+      //use nextCountry
+      for (const key in countriesJSON) {
+        let value = countriesJSON[key];
+        if (nextCountry.key === value) {
+          nextCountryCode = key;
+        }
+      }
+      console.log("nextCountryCode", nextCountryCode);
+    }
+    console.log("nextCountry", nextCountry);
+    //match nextCountry name to a country code, then set randomCountry to that country code
+
     const randomCountry =
       countries[randomIntFromInterval(0, countries.length - 1)];
     // setCurrentCountryCode(randomCountry);
+    if (nextCountryCode) {
+      return {
+        countryName: nextCountry.key,
+        flagImage: `https://flagcdn.com/h240/${nextCountryCode}.png`,
+      };
+    }
 
     return {
       countryName: countriesJSON[randomCountry],
