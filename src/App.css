@@ -1,6 +1,7 @@
 body {
   background-color: antiquewhite;
   margin: 0;
+  padding: 12px;
 }
 
 footer {
@@ -8,10 +9,24 @@ footer {
   padding: 12px 0 12px 12px;
 }
 
-.correctAnswer {
-  background-color: #03fc1c;
+.flag-image {
 }
 
-.incorrectAnswer {
-  background-color: #de2814;
+.answer-box {
+}
+
+.correct-answer {
+  background-color: #b8f28b;
+}
+
+.correct-answer--button {
+  background-color: #78c800;
+}
+
+.incorrect-answer--button {
+  background-color: #ff4b4b;
+}
+
+.incorrect-answer {
+  background-color: #ffdfe0;
 }

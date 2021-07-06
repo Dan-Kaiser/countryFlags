@@ -4,7 +4,7 @@ const AnswerFeedback = ({ answerIsCorrect, answerField, countryName }) => {
   let correctPhrase = `Correct! You wrote ${answerField}, and the answer was ${countryName}`;
   let incorrectPhrase = `Incorrect! You wrote ${answerField}, but the answer is ${countryName}.`;
   return (
-    <footer className={answerIsCorrect ? "correctAnswer" : "incorrectAnswer"}>
+    <footer className={answerIsCorrect ? "correct-answer" : "incorrect-answer"}>
       {answerIsCorrect ? <p>{correctPhrase}</p> : <p>{incorrectPhrase}</p>}
     </footer>
   );
