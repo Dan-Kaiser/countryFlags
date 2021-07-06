@@ -1,4 +1,5 @@
 import React from "react";
+import AnswerArea from "./AnswerArea";
 
 const FlagCard = ({
   flagImg,
@@ -10,27 +11,21 @@ const FlagCard = ({
   handleKeyPress,
 }) => {
   return (
-    <div>
-      <img src={flagImg} alt={`The flag of ${countryName}`} />
+    <div className="flag-card">
+      <img
+        className="flag-card--image"
+        src={flagImg}
+        alt={`The flag of ${countryName}`}
+      />
       {/* <p>{countryName}</p> */}
       <br></br>
-      <label>
-        Answer:
-        <input
-          type="text"
-          name="answer"
-          id="answer"
-          value={answerField}
-          onChange={setAnswerField}
-          onKeyPress={handleKeyPress}
-        />
-      </label>
-      <button onClick={handleOnClick} type="button">
-        Submit
-      </button>
-      <button onClick={getNewFlag} type="button">
-        Next
-      </button>
+      <AnswerArea
+        answerField={answerField}
+        setAnswerField={setAnswerField}
+        handleKeyPress={handleKeyPress}
+        handleOnClick={handleOnClick}
+        getNewFlag={getNewFlag}
+      />
     </div>
   );
 };

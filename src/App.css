@@ -9,10 +9,27 @@ footer {
   padding: 12px 0 12px 12px;
 }
 
-.flag-image {
+.flag-card {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 35em;
 }
 
-.answer-box {
+.flag-card--image {
+  max-width: 100%;
+  border: solid black 4px;
+}
+
+.answer-area {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
 }
 
 .correct-answer {
