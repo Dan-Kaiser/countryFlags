@@ -9,6 +9,7 @@ const FlagCard = ({
   handleOnClick,
   getNewFlag,
   handleKeyPress,
+  hasAnswered
 }) => {
   return (
     <div className="flag-card">
@@ -25,6 +26,7 @@ const FlagCard = ({
         handleKeyPress={handleKeyPress}
         handleOnClick={handleOnClick}
         getNewFlag={getNewFlag}
+        hasAnswered={hasAnswered}
       />
     </div>
   );

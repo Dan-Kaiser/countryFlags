@@ -6,6 +6,7 @@ const AnswerArea = ({
   handleKeyPress,
   handleOnClick,
   getNewFlag,
+  hasAnswered
 }) => {
   return (
     <div className="answer-area">
@@ -19,12 +20,13 @@ const AnswerArea = ({
           onChange={setAnswerField}
           onKeyPress={handleKeyPress}
           autoFocus
+          // disabled={hasAnswered}
         />
       </label>
-      <button onClick={handleOnClick} type="button">
+      <button disabled={hasAnswered} onClick={handleOnClick} type="button">
         Submit
       </button>
-      <button onClick={getNewFlag} type="button">
+      <button disabled={!hasAnswered} onClick={getNewFlag} type="button">
         Next
       </button>
     </div>

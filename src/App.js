@@ -17,23 +17,28 @@ const App = () => {
   const checkMatching = (input, reference) => {
     let lowerInput = input.toLowerCase();
     let lowerReference = reference.toLowerCase();
-    if (lowerInput === lowerReference) {
-      // Correct Answer
-      setUserData((prevState) => {
-        prevState[currentCountryName].correct =
-          prevState[currentCountryName].correct + 1;
-        return prevState;
-      });
-      setAnswerIsCorrect(true);
-    } else {
-      // Incorrect Answer
-      setUserData((prevState) => {
-        prevState[currentCountryName].incorrect =
-          prevState[currentCountryName].incorrect + 1;
-        return prevState;
-      });
-      setAnswerIsCorrect(false);
+    if (Object.entries(userData).length === 0) {  
+      //generate user data if empty
     }
+      if (lowerInput === lowerReference) {
+        // Correct Answer
+        
+        setUserData((prevState) => {
+          prevState[currentCountryName].correct =
+            prevState[currentCountryName].correct + 1;
+          return prevState;
+        });
+        setAnswerIsCorrect(true);
+      } else {
+        // Incorrect Answer
+        setUserData((prevState) => {
+          prevState[currentCountryName].incorrect =
+            prevState[currentCountryName].incorrect + 1;
+          return prevState;
+        });
+        setAnswerIsCorrect(false);
+      }
+
   };
 
   const updateAnswerField = (event) => {
@@ -120,6 +125,7 @@ const App = () => {
   const handleKeyPress = (event) => {
     //Triggers on enter keypress
     if (event.key === "Enter" && hasAnswered === false) {
+      //console.log(event.key)
       handleOnClick(event);
     } else if (event.key === "Enter" && hasAnswered === true) {
       //used to go to the next flag when the answer feedback is showing
@@ -131,6 +137,7 @@ const App = () => {
 
   //Done once on startup
   useEffect(() => {
+    //document.addEventListener("keydown", handleKeyPress, false)
     getNewFlag();
     //Sets data to localStorage or dan template if that doesn't work
     let danData = localStorage.getItem("dan");
@@ -157,6 +164,7 @@ const App = () => {
         setAnswerField={updateAnswerField}
         getNewFlag={getNewFlag}
         handleKeyPress={handleKeyPress}
+        hasAnswered={hasAnswered}
       />
       {hasAnswered ? (
         <AnswerFeedback

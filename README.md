@@ -11,17 +11,18 @@ TODO:
 
 //Fun additional things
 [ ]Diff checker for text
-[ ]Disable the 'next' button until the answer has been submitted
-[ ]Disable the submit button when the answer is showing
+[x]Disable the 'next' button until the answer has been submitted
+[x]Disable the submit button when the answer is showing
 
 //Structure
 []App component should handle the logic, and supply needed logical data to the 'dumb' FlagCard Component
 
 //Bugfixes
 [ ]User data is not being generated on startup
+[ ]User data goes away, and it causes issues, how can we detect when this happens and create userdata using a template
+[ ]make the input unchangeable when the answer has been submitted
 Double loading on startup -- this is normal
 You can change the input when viewing the answer
-[ ]make the input unchangeable when the answer has been submitted
 
 You can submit a blank answer
 [ ]make the submit button unclickable when the input has nothing in it or just whitespace
