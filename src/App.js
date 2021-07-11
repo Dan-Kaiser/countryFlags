@@ -12,6 +12,7 @@ const App = () => {
   const [answerIsCorrect, setAnswerIsCorrect] = useState(false);
   const [hasAnswered, setHasAnswered] = useState(false);
   const [userData, setUserData] = useState({});
+  // const [sortedUserData, setSortedUserData] = useState([]);
 
   const checkMatching = (input, reference) => {
     let lowerInput = input.toLowerCase();
@@ -69,7 +70,7 @@ const App = () => {
         return 0;
       });
       nextCountry = countryList[0];
-      setSortedUserData(countryList);
+      // setSortedUserData(countryList);
     }
     let nextCountryCode;
     if (nextCountry) {
